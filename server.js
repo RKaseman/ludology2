@@ -25,8 +25,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var client = igdb('302b390b8654112eef2ebb62515bc743');
 
-// import broadcast/receive routes and tell express app instance they exist
-require("./routes/api-routes.js")(app);
 
 
 client.games({
@@ -62,7 +60,7 @@ app.post("/api/games", function(req, res){
         limit: 2, // Limit to 5 results
         // offset: 15, // Index offset for results
         search: req.body.game
-
+        
         
     }).then(response => {
         // response.body contains the parsed JSON response to this query
@@ -70,7 +68,7 @@ app.post("/api/games", function(req, res){
     }).catch(error => {
         throw error;
     });
-
+    
 });
 
 
@@ -86,12 +84,16 @@ app.post("/api/characters", function(req, res){
         // response.body contains the parsed JSON response to this query
         res.send(res);
         
-                }).catch(error => {
-                    throw error;
-                });
-                
-            })
+    }).catch(error => {
+        throw error;
+    });
+    
+})
 
+// #################################################28
+// import broadcast/receive routes and tell express app instance they exist
+require("./routes/api-routes.js")(app);
+// #################################################
 
 
 db.sequelize.sync().then(function() {
