@@ -13,7 +13,6 @@ $("#find-game").on("click", function (event) {
 
         for (var i = 0; i < data.body.length; i++) {
             console.log(data.body[i]);
-            // console.log(data.body[i].url);
             var url = data.body[i].url;
 
             $("#test").append("<div  id='" + i + "'>");

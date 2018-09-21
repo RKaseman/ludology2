@@ -55,7 +55,6 @@ app.get("/", function (req,res){
 
 
 
-
 //allows user queries to return data on games
 app.post("/api/games", function(req, res){
     client.games({
@@ -72,11 +71,7 @@ app.post("/api/games", function(req, res){
         throw error;
     });
 
-})
-
-
-
-
+});
 
 
 
@@ -99,11 +94,8 @@ app.post("/api/characters", function(req, res){
 
 
 
-// initial sync of db defined by sequelize and finish, then anonymous function
 db.sequelize.sync().then(function() {
-    // connect the defined PORT, start server
     app.listen(PORT, function () {
-        // print port info in the cmd window
         console.log("PORT " + PORT);
     });
 });
