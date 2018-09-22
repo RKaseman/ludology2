@@ -15,7 +15,10 @@ This app will eventually allow me to surf to useful game links on my phone. No b
 
 * That thing I read about when I first got the game and can't quite remember where I read it. You know the feeling if you're a gamer.
 * That other thing someone finally mentioned near the end of a fanboy flame war about which console is superior. You know the feeling if you're a mature gamer.
-* All I really want to know about a game is the systems it's available for and its release year. I care little for reviews or other hype. The api can fetch that basic info for me.
+
+All I really want to know about a game is the systems it's available for and its release year. I care little for reviews or other hype. The api can fetch that basic info for me.
+
+The app will store hyperlinks and brief notes about games.
 
 I'm proud of the final product and although it still has a quirky bug, I'm going to finish it off and use it.
 
