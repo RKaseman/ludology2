@@ -16,5 +16,12 @@ This app will eventually allow me to surf to useful game links on my phone. No b
 
 * That thing I read about when I first got the game and can't quite remember where I read it. You know the feeling if you're a gamer.
 * That other thing someone finally mentioned near the end of a fanboy flame war about which console is superior. You know the feeling if you're a mature gamer.
+* All I really want to know about a game is the systems it's available for and its release year. I care little for reviews or other hype. The api can fetch that basic info for me.
 
-I'm happy with the final product and although it still has a quirky bug I'm going to finish it off and use it.
+I'm proud of the final product and although it still has a quirky bug, I'm going to finish it off and use it.
+
+* https://github.com/dustin-longenecker did the opening Matrix-style animation
+* https://github.com/Bombinos did the logo animation (it will more than likely become the background of the main page)
+* https://github.com/topalt2 did the main page html
+* https://github.com/double0dizzle did the api call implementation
+* https://github.com/RKaseman did the orm and databse
