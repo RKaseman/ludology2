@@ -6,7 +6,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 // port for 1 of 2 possible connections dependent on environment
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8080;
 
 // access the express dictionary
 var app = express();
