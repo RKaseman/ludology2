@@ -6,7 +6,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 // port for 1 of 2 possible connections dependent on environment
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
 // access the express dictionary
 var app = express();
@@ -90,11 +90,13 @@ app.post("/api/characters", function(req, res){
     
 })
 
+
 // #################################################28
+// #################################################
 // import broadcast/receive routes and tell express app instance they exist
 require("./routes/api-routes.js")(app);
 // #################################################
-
+// #################################################
 
 db.sequelize.sync().then(function() {
     app.listen(PORT, function () {
