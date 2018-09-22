@@ -1,6 +1,4 @@
-# ludology2
-
-- - -
+# [ludology2](https://ludology2.herokuapp.com/)
 
 ## Group Project 2
 
@@ -24,4 +22,4 @@ I'm proud of the final product and although it still has a quirky bug, I'm going
 * https://github.com/Bombinos did the logo animation (it will more than likely become the background of the main page)
 * https://github.com/topalt2 did the main page html
 * https://github.com/double0dizzle did the api call implementation
-* https://github.com/RKaseman did the orm and databse
+* https://github.com/RKaseman did the orm and database
